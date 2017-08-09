@@ -6,7 +6,7 @@ import sqlite3
 
 def main():
         print('Connecting to Reddit...')
-        reddit = praw.Reddit(user_agent='Reply Cat. to hot posts in r/CatsStandingUp (by /u/pyropause)',
+        reddit = praw.Reddit(user_agent='Reply Cat. to hot posts in r/CatsStandingUp',
                                 client_id='', 
                                 client_secret='',
                                 username='', 
